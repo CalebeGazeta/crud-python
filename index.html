@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD To-Do List</title>
+    <!-- Ligando o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas - CRUD</h1>
+
+        <!-- Campo de input e botão para adicionar tarefa -->
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="Digite uma tarefa...">
+            <button onclick="addTask()">Adicionar</button>
+        </div>
+
+        <!-- Onde as tarefas serão listadas -->
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- Ligando o JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>
