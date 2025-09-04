@@ -17,3 +17,4 @@ Projeto feito para estudo de (CRUD) em Python utilizando JSON como banco de dado
 ```bash
 cd C:\Users\User\OneDrive\Documentos\Portifolio\crud_python
 python app.py
+.
